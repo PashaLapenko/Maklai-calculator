@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h2>Тестовое задание для Maklai (калькулятор)</h2>
+
+    <input
+      placeholder="Введите первое число"
+      type="text"
+      id="value1"
+      name="value1"
+    />
+
+    <select id="operator">
+      <option value="addition">+</option>
+      <option value="subtraction">-</option>
+      <option value="multiplication">*</option>
+      <option value="division">/</option>
+    </select>
+
+    <input
+      placeholder="Введите второе число"
+      type="text"
+      id="value2"
+      name="value2"
+    />
+
+    <span>=</span>
+
+    <output type="text" id="result" name="result">Результат</output>
+
+    <input
+      type="submit"
+      id="btn_sub"
+      name="btn_sub"
+      value="Submit"
+      onclick="calculate();"
+    />
+
+    <script src="script.js"></script>
+  </body>
+</html>
